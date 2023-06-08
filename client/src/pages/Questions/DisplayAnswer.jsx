@@ -1,6 +1,5 @@
 import React from 'react'
 import { Link, useParams } from 'react-router-dom'
-import QuestionDetails from './QuestionDetails'
 import Avatar from '../../components/Avatar/Avatar'
 import moment from 'moment'
 import { useSelector,useDispatch } from 'react-redux'
