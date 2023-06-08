@@ -2,7 +2,7 @@ import express from 'express';
 
 import { login, signup } from '../controllers/auth.js'
 import {getAllUsers, updateProfile } from '../controllers/users.js'
-import auth from '../middleaware/auth.js'
+import auth from '../middleawares/auth.js'
 
 const router = express.Router();
 
